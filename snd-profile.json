@@ -1,0 +1,30 @@
+{
+    "Access-Right": {
+        "fieldRequired": true,
+        "defaultValue": "PUBLIC",
+        "valueList": [
+            "PUBLIC",
+            "NON_PUBLIC"
+        ]
+    },
+    "Bagging-Date": {
+        "defaultValue": "YYYY-MM-DD",
+        "fieldRequired": true
+    },
+    "Bag-Group-Identifier": {
+        "defaultValue": "YYYY-XXX",
+        "fieldRequired": true
+    },
+    "Dataset-Status": {
+        "fieldRequired": true,
+        "defaultValue": "COMPLETED",
+        "valueList": [
+            "COMPLETED",
+            "WITHDRAWN"
+        ]
+    },
+    "External-Identifier": {
+        "defaultValue": "https://doi.org/10.???????",
+        "fieldRequired": true
+    }
+}
