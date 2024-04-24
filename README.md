@@ -17,9 +17,11 @@ If you are using other tools than Bagger to create BagIt packages you may of cou
 
 ## Installation
 * Make sure that you have installed Bagger along with a required Java runtime environment. More information is available at: https://github.com/LibraryOfCongress/bagger
-* Download _snd-profile.json_.
-* Move _snd-profile.json_ to the _bagger_ directory:
-    - On Windows, the default location is:
+* Download _snd-profile.json_ from a release or using the Download Raw File button on GitHub.
+* Move _snd-profile.json_ to the _bagger_ directory. This directory will be created the first time you start Bagger, so start it once if you have not already done so.
+    - On Windows, the default location of the _bagger_folder is:
+```C:\Users\<username>\bagger```
+    - On older versions of Windows, the default location is: 
 ```C:\Documents and Settings\<username>\bagger```
     - On macOS or Linux, the default location is: ```~/bagger``` which means f.e. ```/Users/<username>/bagger``` on macOS or ```/home/<username>/bagger``` on most Linux distributions.
     - You may also change the location where bagger looks for profile files by changing the path in the global environment variable ```BAGGER_PROFILES_HOME```.
